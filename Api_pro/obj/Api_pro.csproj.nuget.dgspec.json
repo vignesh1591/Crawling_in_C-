@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Deva Kutty\\source\\repos\\Api_pro\\Api_pro\\Api_pro.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Deva Kutty\\source\\repos\\Api_pro\\Api_pro\\Api_pro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deva Kutty\\source\\repos\\Api_pro\\Api_pro\\Api_pro.csproj",
+        "projectName": "Api_pro",
+        "projectPath": "C:\\Users\\Deva Kutty\\source\\repos\\Api_pro\\Api_pro\\Api_pro.csproj",
+        "packagesPath": "C:\\Users\\Deva Kutty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deva Kutty\\source\\repos\\Api_pro\\Api_pro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deva Kutty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.32, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1000, )"
+            },
+            "OpenQA.Selenium.Winium": {
+              "target": "Package",
+              "version": "[1.0.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
